@@ -3,7 +3,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: 1fr repeat(2, min-content);
-    grid-auto-flow: row;
+    grid-auto-flow: row; 
     padding: 28px 48px 0px;
 }
 

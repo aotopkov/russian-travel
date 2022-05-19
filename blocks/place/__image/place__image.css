@@ -3,3 +3,11 @@
     object-fit: cover;
     grid-row: 2 / 4;
 }
+
+@media screen and (max-width: 720px) {
+    .place__image {
+        max-width: 480px;
+        margin: auto;
+    }
+    
+}

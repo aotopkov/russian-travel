@@ -1,0 +1,18 @@
+.cover__overlay {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    max-width: 1184px;
+    margin: 92px auto 0;
+    text-decoration: none;
+}
+
+@media  screen and (max-width: 560px) {
+    .cover__overlay {
+        margin-top: 66px;
+    }
+    
+}
+
+.cover__overlay:hover .cover__background {
+    opacity: 0.2;
+}

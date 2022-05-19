@@ -1,7 +1,18 @@
 .footer__copyright {
+    display: inline;
+    flex: 1;
+    margin: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: 114%;
-    text-align: center;
+    text-align: right;
     color: #fff;
+}
+
+@media  screen and (max-width: 720px) {
+    .footer__copyright {
+        line-height: 14px;
+        text-align: left;
+        margin-top: 12px;
+    }
 }
