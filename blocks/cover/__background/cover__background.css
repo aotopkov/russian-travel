@@ -1,11 +1,25 @@
 .cover__background {
-    background-color: #2a2c2f;
-    opacity: 0.7;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
-    margin: auto;
-    object-fit: cover;
-    grid-row: 1 / 3;
-    grid-column: 1 / 2;
-    transition: .5s ease-in-out;
+    height: 100%;
+    margin: 92px auto 0;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-decoration: none;
+
 }
+
+@media  screen and (max-width: 560px) {
+    .cover__background {
+        margin-top: 66px;
+    }
+    
+}
+
+.cover__background:hover .cover__overlay {
+    opacity: 0.8;
+}
+

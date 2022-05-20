@@ -6,11 +6,7 @@
     line-height: 1.22;
     text-align: center;
     color: #fff;
-    max-width: 360px;
-    grid-row: 2 / 3;
-    grid-column: 1 / 2;
     z-index: 1;
-    align-self: start;
 }
 
 @media screen and (max-width: 560px) {
