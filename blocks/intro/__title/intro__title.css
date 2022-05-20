@@ -2,7 +2,7 @@
     margin: 0;
     font-weight: 900;
     font-size: 54px;
-    line-height: 58px;
+    line-height: 1.07;
     color: #fff;
     margin-top: 92px;
 }
@@ -17,6 +17,6 @@
     .intro__title {
         margin-top: 64px;
         font-size: 32px;
-        line-height: 109%;
+        line-height: 1.09;
     }
 }

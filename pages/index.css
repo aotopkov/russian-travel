@@ -28,13 +28,16 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__link/_hover/place__link_hover.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
 @import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__overlay/_hover/cover__overlay_hover.css);
 @import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__link/_hover/footer__link_hover.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
