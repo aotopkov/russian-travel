@@ -12,6 +12,13 @@
 
 }
 
+@media  screen and (max-width: 800px) {
+    .cover__background {
+        margin-top: 90px;
+    }
+    
+}
+
 @media  screen and (max-width: 560px) {
     .cover__background {
         margin-top: 66px;
