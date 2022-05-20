@@ -11,7 +11,7 @@
 @media screen and (max-width: 1024px) {
     .place {
         max-width: 928px;
-        grid-template-columns: minmax(340px, 440px) minmax(50%, 1fr);
+        grid-template-columns: minmax(340px, 440px) 1fr;
         column-gap: 32px;
         margin: 0 48px;
     }
@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 928px) {
     .place {
-        grid-template-columns: minmax(min-content, 340px) minmax(50%, 1fr);
+        grid-template-columns: minmax(min-content, 340px) 1fr;
         column-gap: 28px;
         margin: 0 24px;
     }
