@@ -5,15 +5,23 @@
     font-size: 18px;
     line-height: 1.22;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
     z-index: 1;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        font-size: calc(14px + (18 - 14) * (100vw - 320px) / (768 - 320));
+        margin: calc(16px + (32 - 16) * (100vw - 320px) / (768 - 320)) calc(16px + (204 - 16) * (100vw - 320px) / (768 - 320)) 0;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
     .cover__subtitle {
         font-size: 14px;
         line-height: 1.14;
         margin: 16px 16px 0;
     }
-    
+
 }
