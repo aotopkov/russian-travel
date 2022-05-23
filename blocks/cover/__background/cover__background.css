@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     text-decoration: none;
-    transition: .5s ease-in-out;
+    
 
 }
 
@@ -35,7 +35,19 @@
     
 }
 
-.cover__background:hover .cover__overlay {
-    opacity: 0.8;
+.cover__background::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    transition: .5s ease-in-out;
 }
 
+.cover__background:hover::after {
+    opacity: 0.8;
+}
